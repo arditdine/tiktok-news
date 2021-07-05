@@ -13,7 +13,7 @@ const URLS = [
 ]
 
 const BASE_URL = "https://newsroom.tiktok.com"
-const TO_EMAIL = "ardit_dine@hotmail.com"
+const TO_EMAIL = process.env.TO_EMAIL || ""
 
 
 ;(async () => {
