@@ -1,5 +1,5 @@
 'use strict'
-const get = require('lodash.get')
+const {get} = require('lodash')
 
 require('dotenv').config()
 
